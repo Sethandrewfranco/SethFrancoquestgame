@@ -26,9 +26,8 @@ public class playercontroller : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Quest"))
         {
-            other.gameObject.SetActive(false);
 
-            winText.text = "You have hit the back wall, jumped the ramp, hit the stop wall, and landed on the lower level";
+            winText.text = "You have hit jumped the ramp, hit the stop wall, and landed on the lower level";
         }
         if (other.gameObject.CompareTag("Object"))
         {
